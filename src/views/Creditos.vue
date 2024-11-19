@@ -7,7 +7,7 @@
         .col-md-10.mb-4.mb-md-0
           .tarjeta.p-3.text-center.h-100
             h2 Elaborado por:
-            img.mx-auto.d-inline-block.mb-3(src='@/assets/template/logo_IE.png' style='width:80%;max-width:613px')
+            img.mx-auto.d-inline-block.mb-3(src='@/assets/template/LOGO_OIT.png' style='width:80%;max-width:613px')
           
       .row.mb-4.mb-md-5
         .col-md-6.mb-4.mb-md-0
@@ -35,7 +35,7 @@
   </template>
 <script>
 import BannerInterno from '../../node_modules/ecored-base-pkg/src/components/plantilla/BannerInterno.vue'
-import Footer from '../../node_modules/ecored-base-pkg/src/components/plantilla/Footer'
+import Footer from '../bootstrap/Footer'
 export default {
   name: 'Creditos',
   components: {
