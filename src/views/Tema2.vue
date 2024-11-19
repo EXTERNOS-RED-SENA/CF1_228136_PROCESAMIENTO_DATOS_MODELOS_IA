@@ -212,8 +212,14 @@
 </template>
 
 <script>
+import AcordionA from '../bootstrap/AcordionA'
+import LineaTiempoD from '../bootstrap/LineaTiempoD'
 export default {
   name: 'Tema2',
+  components: {
+    AcordionA,
+    LineaTiempoD,
+  },
   data: () => ({
     // variables de vue
   }),

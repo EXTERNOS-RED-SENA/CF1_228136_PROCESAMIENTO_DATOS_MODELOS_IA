@@ -102,8 +102,12 @@
 </template>
 
 <script>
+import LineaTiempoD from '../bootstrap/LineaTiempoD'
 export default {
   name: 'Tema3',
+  components: {
+    LineaTiempoD,
+  },
   data: () => ({
     // variables de vue
   }),

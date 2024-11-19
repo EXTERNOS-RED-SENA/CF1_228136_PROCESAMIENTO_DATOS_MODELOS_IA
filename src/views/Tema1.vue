@@ -319,9 +319,12 @@
 </template>
 
 <script>
+import SlyderA from '../bootstrap/SlyderA'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    SlyderA,
+  },
   data: () => ({
     // variables de vue
   }),
